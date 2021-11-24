@@ -69,7 +69,7 @@ HEADER SECTION
 
 header { 
 	height: 100vh;
-    background-image: url('https://psd.hackeryou.com/assignment1-assets/arora/asset-3.jpg');
+    background-image: url('./images/asset-3.jpg');
     background-size: cover; 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -418,7 +418,7 @@ MEDIA QUERIES
 /* Portrait tablet and small desktops */
 @media (max-width: 1400px) {
     header { 
-        background-image: url('https://psd.hackeryou.com/assignment1-assets/arora/asset-2.jpg');
+        background-image: url('./images/asset-2.jpg');
         background-size: contain; 
         background-position: right; 
     }
